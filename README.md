@@ -1,6 +1,9 @@
 # SocialUniverse
 ![Main window screenshot](./dist/assets/Screenshot.jpg)
 
+[Click here to play](https://aifanatic.github.io/SocialUniverse/dist/index.html)
+
+
 ## Controls
 - W,A,S,D - Move
 - SPACE - Jump
