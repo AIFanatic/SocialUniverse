@@ -39,10 +39,10 @@ export class TerrainManagerTopCamera extends Components.Component {
 
     public OnEnable() {
         const options = {
-            url: "../test/earth/",
-            // url: "https://kh.google.com/rt/earth/",
+            // url: "../test/earth/",
+            url: "https://kh.google.com/rt/earth/",
             nodeValidationHandler: (node) => { return this.NodeValidationHandler(node) },
-            rootEpoch: 897,
+            // rootEpoch: 897,
             workerCount: 4
         };
 
