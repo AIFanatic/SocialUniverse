@@ -1,5 +1,4 @@
 # SocialUniverse
-Walk through the world in an immersive multiplayer way.
 ![Main window screenshot](./dist/assets/Screenshot.jpg)
 
 ## Controls
