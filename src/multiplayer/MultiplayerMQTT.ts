@@ -21,7 +21,8 @@ export class MultiplayerMQTT extends Components.Component {
             return;
         }
 
-        this.client = new Paho.Client("broker.hivemq.com", 8000, this.clientId);
+        // wss://test.mosquitto.org:8081
+        this.client = new Paho.Client("test.mosquitto.org", 8081, this.clientId);
         
         // set callback handlers
         this.client.onConnectionLost = (error) => {this.OnConnectionLost(error)};
@@ -29,7 +30,8 @@ export class MultiplayerMQTT extends Components.Component {
         
         // connect the client
         this.client.connect({
-            onSuccess: () => { this.OnServerConnection()}
+            onSuccess: () => { this.OnServerConnection()},
+            useSSL: true
         });
     }
 
