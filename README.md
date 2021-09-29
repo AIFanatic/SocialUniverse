@@ -9,6 +9,7 @@
 - SPACE - Jump
 - N - Toggle noclip
 - Y - Chat
+- Location - Change lat, lon, alt in the url
 
 ## Features
 - 3D tiles (from google earth)
