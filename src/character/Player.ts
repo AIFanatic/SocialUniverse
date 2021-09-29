@@ -113,7 +113,7 @@ export class Player extends Components.Component {
         const geometry = gameObject.AddComponent(Components.Sphere) as Components.Sphere;
         const collider = gameObject.GetComponent(Components.SphereCollider) as Components.SphereCollider;
         const meshRenderer = gameObject.GetComponent(Components.MeshRenderer) as Components.MeshRenderer;
-        const material = new MeshBasicMaterial({color: 0xff0000, transparent: true, opacity: 0.25});
+        const material = new MeshBasicMaterial({color: 0xff0000, transparent: true, opacity: 0});
         meshRenderer.material = material;
 
         const rigidbody = gameObject.AddComponent(Components.Rigidbody) as Components.Rigidbody;

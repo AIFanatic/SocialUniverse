@@ -18,7 +18,7 @@
 ## TODO
 - [ ] Implement WorldShifter (partially implemented)
 - [ ] Some textures are not compatible with Android
-- [ ] Improve multiplayer
+- [ ] Improve multiplayer (sometimes player doesn't join octant)
 - [ ] Chat is kinda buggy
 - [ ] Prettify (Fog, Sky, Atmosphere)
 
